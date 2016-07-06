@@ -1,0 +1,110 @@
+Bit-1
+
+What is the output           
+
+#include<stdio.h>
+int main(){
+    int x=123;
+    int i={
+         printf("c" "++")
+    };
+    for(x=0;x<=i;x++){
+         printf("%x ",x);
+    }
+    return 0;
+}
+
+Bit-2:
+
+#include<stdio.h>
+int i=40;
+extern int i;
+int main(){
+    do{
+         printf("%d",i++);
+    }
+    while(5,4,3,2,1,0);
+    return 0;
+}
+
+Bit-3:
+
+#include<stdio.h> 
+int main()
+{
+    int i=2,j=2;  
+    while(i+1?--i:j++) 
+       printf("i=%d j=%d",i,j);
+    return 0;
+}
+
+Bit-4:
+
+void main()
+{
+        int i=1;
+        for(;i++;)
+            printf("%d",i);
+}
+
+Bit-5:
+
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    i=j=2,3;       // line 5
+    while(--i&&j++)
+    printf("%d %d\n",i,j);
+    printf("%d %d\n",i,j);
+    return 0;
+}
+
+Bit-6:
+
+#include<stdio.h>
+void main()
+{
+        int i;
+        for(i=1,printf("Intialization");printf("\nCondition"),i++ <= 5;printf("%d",i))
+                printf("\nInside the loop\n");
+}
+
+Bit-7:
+
+int z,x=5,y=-10,a=4,b=2; 
+z = x++ - --y * b / a;      What is the value of 'z'
+Bit-8:
+char* myFunc (char *ptr)
+{
+ ptr += 3;
+ return (ptr);
+} 
+int main()
+{
+ char *x, *y;
+ x = "HELLO";
+ y = myFunc (x);
+ printf ("y = %s \n", y);
+ return 0;
+}
+
+Bit-9
+
+int a=10,b;
+b=a++ + ++a;
+printf("%d,%d,%d,%d",b,a++,a,++a);
+
+Bit-10:
+
+void myFunc (int x) 
+{ 
+   if (x > 0)
+   myFunc(--x); 
+   printf("%d, ", x); 
+} 
+int main() 
+{ 
+   myFunc(5); 
+   return 0; 
+}

@@ -1,0 +1,132 @@
+Bit-1
+
+#include <stdio.h>
+int main(){
+        int c=08;
+        printf("%d",c);
+        return 0;
+}
+
+Bit-2:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+    {
+        printf("%d",sizeof(5.2));
+    }
+
+Bit-3:
+
+#include<stdio.h>
+int main(){
+    double d=5.2;
+    int  i=5;
+    printf("%d\t",sizeof(!d));
+    printf("%d\t",sizeof(i=15/2));
+    printf("%d",i);
+    return 0;
+}
+
+Bit-4:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+        int a=8,b=4;
+        int c,d;
+        c= a>6;
+        d= a>2 && b==3;
+        printf("c = %d, d= %d",c,d);
+}
+
+Bit-5:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+        int a=8,b=4;
+        int c;
+        c=(a<6) || (b=10);
+        printf("\nc= %d, a=%d, b=%d",c,a,b);
+}
+
+Bit-6:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+        int a=1,b=20;
+        if (a && b>5 > 25)
+                printf("ece");
+        else
+                printf("eee");
+}
+
+Bit-7:
+
+#include<stdio.h>
+void main()
+{
+    int i=1,j=1;
+    while (++i < 10)
+        printf("%d ",i);
+        printf("\n");
+    while (j++ < 10)
+        printf("%d ",j);
+}
+
+Bit-8:
+
+#include<stdio.h>
+void main(){
+     int i=1;
+     switch(i<<2+i){
+        default:printf("Default Case");
+        case 4: printf(" Case 4");
+        case 8: printf(" Case 8");
+        case 5: printf(" Case 5");
+     } 
+}
+
+Bit-9:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+        int x=1;
+        switch(x)
+        {
+                case x: printf("case 1"); break;
+                case 2: printf("case 2"); break;
+                case 3: printf("case 3"); break;
+                case 4: printf("case 4"); break;
+        }
+}
+
+Bit-10:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+    int i=10;
+    if(i ==10)
+        printf("I is 10");
+    else if ( i <= 10)
+        printf(",I is less than or equal to 10");
+    else
+    {
+        break;
+    }
+}

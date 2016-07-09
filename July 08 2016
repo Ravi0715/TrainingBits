@@ -1,0 +1,142 @@
+Bit-1:
+
+What is the output of the following program?
+void main()
+{
+    int c=1;
+    while(c <100)
+        printf("%d",c);
+        c++;
+}
+
+Bit-2:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+        int i=0;
+        while(i <10);             // line 5
+        {
+                printf("%d ",i);  // line 7
+                i++;              // line 8
+        }
+}
+
+Bit-3:
+
+What is the output of the following program?
+
+void main()
+{
+    int i;
+    for(i=1;i++ <= 5;printf("%d \n",i))
+    printf("Inside the loop : ");
+}
+
+Bit-4: 
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+    int a=6,b=5,c=4;
+    printf("%d",(a>b>c?1:0));
+}
+
+Bit-5:
+
+What is the output of the following program?
+
+#include<stdio.h>
+int main()
+    {
+        int a=2;
+        a=a+2<<1;
+        printf("%d ",a);
+        a=a+(2<<1);
+        printf("%d",a);
+    }
+
+Bit-6:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+    int arr[5]={1,2,3,4,5,6};
+    printf("size=%d ", sizeof(arr));
+    printf("arr[5]=%d",arr[5]);
+}
+
+Bit-7:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+    int[] a={100,200,300};
+    printf("%d",a[2]);
+}
+
+Bit-8:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main()
+{
+    static int arr[]=[1,2,3,4,5,6];
+    int i;
+    for (i=0,i<=5;i++)
+    {
+        printf("%d",arr[i]);
+    }
+}
+
+Bit-8:
+
+What is the output of the following program?
+
+#include<stdio.h>
+void main(){
+    const int SIZE=5;
+    int expr;
+    double value[SIZE]={1.0,2.0,3.0,4.0,5.0};
+    expr=1|2|3;
+    printf("%d",expr);
+    printf("%f",value[expr]);
+}
+
+Bit-9:
+
+What is the output of the following program?
+
+#include<stdio.h>
+#define SIZE 5
+void main()
+{
+    int expr;
+    double value[SIZE]={1.0,2.0,3.0,4.0,5.0};
+    expr=1|2|3;
+    printf("%d",expr);
+    printf("%f",value[expr]);
+}
+
+Bit-10:
+
+What is the output of the following program?
+
+#include<stdio.h>
+int arr0[10];
+void main()
+{
+        int arr1[10]={1,2};
+        int arr2[10];
+        static int arr3[10];
+        printf("%d %d %d %d", arr0[5],arr1[5],arr2[5],arr3[5]);
+}

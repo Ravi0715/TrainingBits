@@ -1,0 +1,133 @@
+Bit-1
+
+What would be the output of the following program?
+
+main()
+{
+printf(5+"fascimile");
+}
+
+Bit-2
+
+What would be the output of the following program?
+
+main()
+{
+char str1[] = "Hello";
+char str2[] = "Hello";
+if(str1 == str2)
+printf("\n Equal");
+else
+printf("\nUnequal");
+}
+
+Bit-3:
+
+main()
+{
+printf("%c","abcdefgh"[4]);
+}
+
+Bit-4:
+
+How would you output \n on the console screen?
+
+Bit-5:
+
+main()
+{
+char ch = 'A';
+printf("%d%d", sizeof(ch), sizeof('A'));
+}
+
+Bit-6:
+
+main()
+{
+static char s[] = "Rendezvous";
+printf("%d", *(s+strlen(s)));
+}
+
+Bit-7:
+
+main()
+{
+char ch[20];
+int i;
+for(i=0; i<=19; i++)
+*(ch+i) = 67;
+*(ch+i) = '\0';
+printf("%s" , ch);
+}
+
+Bit-8:
+
+main()
+{
+char str[20];
+static int i;
+for(; ;)
+{
+i++[str] = 'A' + 2;
+if(i == 19)
+break;
+}
+i[str] = '\0';
+printf("%s",str);
+}
+
+Bit-9:
+
+main()
+{
+static char str[]={48,48,48,48,48,48,48,48,48,48};
+char *s;
+int i;
+s = str;
+for( i = 0; i<=9; i++)
+{
+if(*s)
+printf("%c", *s);
+s++;
+}
+}
+
+Bit-10:
+
+main() 
+{
+static char s[]="C Smart!!";
+int i;
+for(i =0; s[i]; i++)
+printf("%c%c%c%c\n",s[i],*(s+i),i[s],*(i+s));
+}
+
+Bit-11:
+
+What would be the output of the following program?
+
+main()
+{
+static char s[25] = "The cocaine man";
+int i =0;
+char ch;
+ch = s[++i];
+printf("%c%d\n",ch,i);
+ch = s[i++];
+printf("%c%d\n",ch,i);
+ch = i++[s];
+printf("%c%d\n",ch,i);
+ch = ++i[s];
+printf("%c%d\n",ch,i);
+}
+
+Bit-12:
+
+main()
+{
+static char arr[] = "pickpocketing my piece of mind";
+int i:
+printf("%c\n", *arr);
+arr++;
+printf("%c\n", *arr);
+}
